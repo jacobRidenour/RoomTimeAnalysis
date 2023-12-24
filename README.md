@@ -5,9 +5,11 @@ This script will take those files, parse them, and provide a summary of statisti
 The input directory (`--CSVdir`) should be one that only contains room time .csvs output by FUNtoon for a single speedrun category.
 
 Here's an example of how you use it in Command Prompt/PowerShell:
+
 `python RoomTimeAnalysis.py --CSVdir C:\path\to\csv\folder --Output results.csv --RTA`
 
 And here's how you'd use it in Bash/Zsh or similar shells:
+
 `python RoomTimeAnalysis.py --CSVdir /c/path/to/csv/folder --Output results.csv --RTA`
 
 If you do not include the --RTA flag, the output will be in practice hack format (seconds.frames) rather than (seconds.milliseconds).

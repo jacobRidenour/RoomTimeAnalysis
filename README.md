@@ -1,4 +1,4 @@
-Thanks to Taw, FUNtoon can now export CSV files containing room times for people speedrunning Super Metroid.
+Thanks to Taw, [FUNtoon](https://funtoon.party/) can now export CSV files containing room times for people speedrunning Super Metroid.
 
 This script will take those files, parse them, and provide a summary of statistics for various rooms, including Best Time, Average Time, and Standard Deviation, as well as the sample size for each room. Currently, the results are always saved to the same directory as the script.
 
